@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rshahdelhi_PetProject_1704643259023-pr-trigger-input-set
+  identifier: Build_rshahdelhi_PetProject_1704643259023prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rshahdelhi_PetProject_1704643259023
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
